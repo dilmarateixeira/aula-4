@@ -1,1 +1,83 @@
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
 
+header {
+    background-color: #CC0000; /* Vermelho Principal */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+}
+
+header p {
+    margin: 0;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #111111; /* Preto Secundário */
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+
+    border: 2px solid #111111; /* Preto Secundário */
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 280px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #CC0000; /* Destaque em Vermelho */
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #555555;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: 1px solid #111111;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #ffe6e6;
+}
